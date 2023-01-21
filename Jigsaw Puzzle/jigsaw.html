@@ -1,0 +1,36 @@
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Jigsaw</title>
+
+    
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+    <audio><source src="music.mpeg" type="audio/mpeg" /></audio>
+    <button onclick="playAudio()" type="button">Play Audio</button>
+
+    <div id="container">
+    <div id="pieceContainer"></div>
+    <div id="puzzleContainer"></div>
+    <ul id="buttons">
+      <li><button id="btnStart">Start</li>
+     <!-- <li><button id="btnReset">Reset</li>  -->  
+    </div>   
+      
+    <div id="sortContainer">
+      Scrollable list of jigsaw pieces
+      <p class="draggable" draggable="true">1</p>
+      <p class="draggable" draggable="true">2</p>
+      <p class="draggable" draggable="true">3</p>
+      <p class="draggable" draggable="true">4</p>
+    </div> 
+    
+  </body>
+</html>
+
+    

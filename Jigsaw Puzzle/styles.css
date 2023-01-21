@@ -1,0 +1,79 @@
+#container 
+{
+  width: 850px;
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+#pieceContainer
+{
+  width: 408px;
+  height: 408px;
+  border: 1px solid black;
+  float: left;
+  text-align: center;
+  font-size: 30px;
+  line-height: 400px;
+  position: relative;
+}
+
+#puzzleContainer
+{
+  width: 408px;
+  height: 408px;
+  border: 1px solid black;
+  float: right;
+  background-image: url('blurred.png') ;
+}
+
+ul
+{
+  list-style-type: none;
+  text-align:center;
+  align-self: center;
+}
+ul button{
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 10px;
+  margin-top: 40px;
+}
+#btnReset{
+  display:none;
+}
+
+.piece{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  float: left;
+  background-image: url(bird.png);
+  background-repeat: no-repeat ;
+}
+
+body {
+  margin: 0;
+}
+
+.sortContainer {
+  height:auto;
+  width: 50%;
+  background-color: #333;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.draggable {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+  cursor: move;
+}
+
+.draggable.dragging {
+  opacity: .5;
+}
